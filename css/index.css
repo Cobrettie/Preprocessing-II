@@ -168,6 +168,11 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
+}
 .nav-container {
   max-width: 1200px;
   width: 100%;
@@ -185,7 +190,12 @@ img {
 @media (max-width: 500px) {
   .nav-container nav {
     flex-direction: column;
-    background: red;
+    padding: 25px 0 10px;
+  }
+}
+@media (max-width: 500px) {
+  .nav-container nav .nav-logo {
+    padding: 0 0 15px 0;
   }
 }
 .nav-container nav .nav-logo h1 {
@@ -193,9 +203,9 @@ img {
   color: #000;
 }
 .nav-container nav .nav-links {
-  width: 40%;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 .nav-container nav .nav-links a {

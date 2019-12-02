@@ -14,13 +14,17 @@
         justify-content: space-between;
         align-items: center;
 
-        // mobile styling
         @media @mobile {
             flex-direction: column;
-            background: red;
+            padding: 25px 0 10px;
         }
 
         .nav-logo {
+            
+            @media @mobile {
+                padding: 0 0 15px 0;
+            }
+
             h1 {
                 padding: 0;
                 color: #000;
@@ -28,10 +32,15 @@
         }
 
         .nav-links {
-            width: 40%;
+            width: 100%;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-evenly;
             align-items: center;
+
+            @media @mobile {
+
+            }
+
             a {
                 text-decoration: none;
                 color: #000;
