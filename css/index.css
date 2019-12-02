@@ -182,7 +182,13 @@ img {
   justify-content: space-between;
   align-items: center;
 }
-.nav-container nav .nav-logo h2 {
+@media (max-width: 500px) {
+  .nav-container nav {
+    flex-direction: column;
+    background: red;
+  }
+}
+.nav-container nav .nav-logo h1 {
   padding: 0;
   color: #000;
 }

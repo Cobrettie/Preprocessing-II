@@ -14,8 +14,14 @@
         justify-content: space-between;
         align-items: center;
 
+        // mobile styling
+        @media @mobile {
+            flex-direction: column;
+            background: red;
+        }
+
         .nav-logo {
-            h2 {
+            h1 {
                 padding: 0;
                 color: #000;
             }
