@@ -325,9 +325,20 @@ img {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .home .content-pick {
+    flex-direction: column;
+  }
+}
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+@media (max-width: 500px) {
+  .home .content-pick .destination {
+    width: 80%;
+    margin: 0 auto 30px;
+  }
 }
 .home .content-pick .destination .btn {
   width: 80%;
@@ -338,4 +349,9 @@ img {
   padding: 12px 0px;
   text-align: center;
   font-size: 1.8rem;
+}
+@media (max-width: 500px) {
+  .home .content-pick .destination .btn {
+    width: 100%;
+  }
 }
