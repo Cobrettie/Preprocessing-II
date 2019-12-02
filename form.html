@@ -28,13 +28,49 @@
 
     <!-- main page container -->
     <div class="container">
-      
+      <!-- vacation package selector form -->
+      <form>
+
+        <div>
+          <label for="packages">Select your vacation package:</label>
+          <select id="packages">
+            <option value="1">Fun In The Sun</option>
+            <option value="2">Mountain Excursion</option>
+            <option value="3">Island Getaway</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name">
+        </div>
+
+        <div>
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="user_email">
+        </div>
+
+        <div>
+          <label for="phonenumber">Phone Number:</label>
+          <input type="text" id="phonenumber" name="user_phonenumber">
+        </div>
+
+        <div>
+          <label for="instructions">Special Instructions:</label>
+          <textarea id="instructions" name="user_instructions"></textarea>
+        </div>
+
+        <div class="form-submit-btn">
+          <button type="submit">Submit Form</button>
+        </div>
+
+      </form>
     </div>
     <!-- end of main page container -->
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <p>Copyright Fun Bus 2018</p>
-    </footer>
+    </footer> -->
     
 </body>
 </html>
