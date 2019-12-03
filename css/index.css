@@ -355,3 +355,51 @@ img {
     width: 100%;
   }
 }
+form {
+  border: 5px solid #C0C0C0;
+  box-shadow: 2px 4px #a7a7a7;
+  border-radius: 20px;
+  margin: 80px 0 0;
+  padding: 60px 0 40px;
+}
+form .form-input {
+  padding: 10px 0 10px;
+}
+form .packages-select {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+form .user-name {
+  margin: 0 auto;
+  width: 50%;
+  font-size: 1.6rem;
+}
+form .user-email {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+form .user-phone {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+form .special-instructions {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+form .form-submit-btn {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0;
+}
+form .form-submit-btn button {
+  font-size: 1.6rem;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
